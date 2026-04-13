@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1120" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102844"/>
+      <stop offset="1" stop-color="#1E5A8E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 120) rotate(42.2176) scale(402.18 311.539)">
+      <stop stop-color="#F1B85A" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#F1B85A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="34" fill="url(#glow)"/>
+  <circle cx="1034" cy="126" r="78" fill="#CF5F37" opacity=".9"/>
+  <path d="M145 170H405V220H315V430H405V480H145V430H235V220H145V170Z" fill="#F4BD63"/>
+  <text x="145" y="304" fill="#ffffff" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700">
+    Math and Physics
+  </text>
+  <text x="145" y="384" fill="#ffffff" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700">
+    Practice Lab
+  </text>
+  <text x="145" y="456" fill="#D7E7F8" font-family="Space Grotesk, Arial, sans-serif" font-size="30">
+    Generate printable worksheets, open the live app, and export LaTeX PDFs.
+  </text>
+  <rect x="144" y="512" width="328" height="54" rx="27" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.22)"/>
+  <text x="182" y="547" fill="#ffffff" font-family="Space Grotesk, Arial, sans-serif" font-size="24" font-weight="700">
+    Calculus - Physics - Statistics
+  </text>
+</svg>
