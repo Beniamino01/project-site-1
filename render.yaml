@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: project-site-1
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: SITE_NAME
+        value: Math and Physics Practice Lab
+      - key: SITE_LABEL
+        value: Project Site 1
+      - key: CONTACT_EMAIL
+        value: hello@yourdomain.com

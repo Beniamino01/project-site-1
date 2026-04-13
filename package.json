@@ -1,0 +1,16 @@
+{
+  "name": "project-site-1",
+  "version": "1.0.0",
+  "description": "Math and physics worksheet generator with LaTeX PDF export",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
